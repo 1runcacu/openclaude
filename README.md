@@ -5,10 +5,9 @@
 ## 🎬 演示视频
 
 <div align="center">
-<video width="80%" controls>
-  <source src="blog/images/demo.mp4" type="video/mp4">
-  您的浏览器不支持视频标签。
-</video>
+
+[![演示视频](https://img.shields.io/badge/📺-观看演示视频-blue?style=for-the-badge)](blog/images/demo.mp4)
+
 </div>
 
 > 📺 完整演示了 OpenClaude 的安装、配置和使用流程
