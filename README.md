@@ -2,6 +2,17 @@
 
 🚀 **将 Anthropic Claude 的 API 接口封装为 OpenAI 兼容格式，为 Claude-Code 模型提供开箱即用的 OpenAI API 适配层，无缝接入现有生态**
 
+## 🎬 演示视频
+
+<div align="center">
+<video width="80%" controls>
+  <source src="blog/images/demo.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
+</div>
+
+> 📺 完整演示了 OpenClaude 的安装、配置和使用流程
+
 ## 🎯 项目初衷
 
 本项目通过深度魔改 claude-code 1.0.72 版本，**彻底破除了所有限制壁垒**：
