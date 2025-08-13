@@ -1,0 +1,43 @@
+{
+  "models": [
+    {
+      "claudeModelName": "claude-3-5-sonnet-20241022",
+      "openaiModelName": "gpt-4o",
+      "maxTokens": 8192,
+      "description": "Claude 3.5 Sonnet mapped to GPT-4o - Best for complex reasoning and analysis"
+    },
+    {
+      "claudeModelName": "claude-3-5-haiku-20241022",
+      "openaiModelName": "gpt-4o-mini",
+      "maxTokens": 8192,
+      "description": "Claude 3.5 Haiku mapped to GPT-4o Mini - Fast and efficient for simple tasks"
+    },
+    {
+      "claudeModelName": "claude-3-opus-20240229",
+      "openaiModelName": "gpt-4-turbo",
+      "maxTokens": 4096,
+      "description": "Claude 3 Opus mapped to GPT-4 Turbo - Powerful for creative and complex tasks"
+    },
+    {
+      "claudeModelName": "claude-3-sonnet-20240229",
+      "openaiModelName": "gpt-4",
+      "maxTokens": 4096,
+      "description": "Claude 3 Sonnet mapped to GPT-4 - Balanced performance and efficiency"
+    },
+    {
+      "claudeModelName": "claude-3-haiku-20240307",
+      "openaiModelName": "gpt-3.5-turbo",
+      "maxTokens": 4096,
+      "description": "Claude 3 Haiku mapped to GPT-3.5 Turbo - Quick responses for basic tasks"
+    }
+  ],
+  "defaultModel": "claude-3-5-sonnet-20241022",
+  "router": {
+    "default": "claude-3-5-sonnet-20241022",
+    "longContext": "claude-3-opus-20240229",
+    "longContextThreshold": 60000,
+    "webSearch": "claude-3-5-sonnet-20241022",
+    "background": "claude-3-5-haiku-20241022",
+    "think": "claude-3-opus-20240229"
+  }
+}
