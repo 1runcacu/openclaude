@@ -433,7 +433,7 @@ export class ClaudeAdapter {
     const requestBody = {
       history: [
         // @ts-ignore
-        ...claudeRequest?.system!.map((v: any) => ({
+        ...(claudeRequest?.system ?? [])!.map((v: any) => ({
           role: "system",
           content: v.type === "text" ? v.text : JSON.stringify(v),
         })),
