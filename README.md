@@ -374,19 +374,6 @@ ANTHROPIC_API_KEY=test-key npx ts-node examples/demo.ts
 
 欢迎提交 Issue 和 Pull Request！
 
-## 💝 支持项目
-
-如果这个项目对你有帮助，欢迎请作者喝杯咖啡！你的支持是我持续改进和维护这个项目的动力。
-
-### 微信赞赏
-
-<div align="center">
-<img src="blog/images/wx.png" alt="微信赞赏码" width="200"/>
-<p><em>扫码请作者喝咖啡 ☕</em></p>
-</div>
-
-感谢每一位支持者的慷慨！你们的鼓励让开源精神得以延续。🙏
-
 ### 其他支持方式
 - ⭐ 给项目点个 Star
 - 🐛 提交 Issue 反馈
